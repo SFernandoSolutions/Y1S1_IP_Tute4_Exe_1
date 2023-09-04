@@ -16,15 +16,8 @@ int main(void)
 	{
 		num1=num1*-1;
 	}
-	else if(num1==0)
-	{
-		return 0;	
-	}
-	else
-	{
-		num1=num1;
-	}
 	
+//	output
 	printf("Your Number is : %d",num1);
 	return 0;
 }
